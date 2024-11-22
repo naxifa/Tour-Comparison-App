@@ -15,10 +15,13 @@ function Gallery() {
   // Fetch tours from the API
   const fetchTours = async () => {
     setLoading(true); // Set loading to true before fetching data
+
     try {
       const response = await fetch("https://course-api.com/react-tours-project"); // Fetch data from API
       if (!response.ok) throw new Error("Failed to fetch tours"); // Handle API errors
+
       const data = await response.json(); // Parse response JSON
+
       setTours(data); // Update tours state with fetched data
     } catch (err) {
       setError(err.message); // Set error message if fetch fails

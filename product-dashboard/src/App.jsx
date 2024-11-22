@@ -9,10 +9,10 @@ import "./App.css"; // Import styles for the app
 function App() {
   return (
     <div className="App">
-      {/* App title */}
+
       <h1>Tour Comparison App</h1>
-      {/* Render the Gallery component */}
       <Gallery />
+
     </div>
   );
 }
