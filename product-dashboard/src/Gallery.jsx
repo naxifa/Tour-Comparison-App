@@ -19,7 +19,7 @@ function Gallery() {
   // Function to fetch tours
   const fetchTours = () => {
     setLoading(true); // Show loading state
-    fetch("https://course-api.com/react-tours-project")
+    fetch("https://www.course-api.com/react-tours-project")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch tours");
@@ -53,7 +53,7 @@ function Gallery() {
   };
 
 
-  
+
   // Render UI
   return (
     <div>
