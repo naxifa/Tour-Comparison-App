@@ -2,8 +2,8 @@
 // App.jsx (Root Component)
 
 import React from "react";
-import Gallery from "./components/Gallery"; // Import the Gallery component
-import "./App.css"; // Import styles for the app
+import Gallery from "./Gallery"; 
+import "./App.css"; 
 
 // Main App component
 function App() {
